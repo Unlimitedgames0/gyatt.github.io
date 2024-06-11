@@ -23,27 +23,3 @@
     <iframe src="https://storage.googleapis.com/bento-developer-games/99balls3d1/gameCode/index.html" allow="gamepad *;"></iframe>
 </body>
 </html>
- Unlimited Games                                                                                    
-<head>
-  <title>Fullscreen Link</title>
-  <script>
-    function openFullscreen() {
-      var newWindow = window.open("https://sites.google.com/view/unlimited-gxmes/", "_blank"); // Replace with your link
-      newWindow.onload = function() {
-        if (newWindow.document.documentElement.requestFullscreen) {
-          newWindow.document.documentElement.requestFullscreen();
-        } else if (newWindow.document.documentElement.mozRequestFullScreen) { /* Firefox */
-          newWindow.document.documentElement.mozRequestFullScreen();
-        } else if (newWindow.document.documentElement.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-          newWindow.document.documentElement.webkitRequestFullscreen();
-        } else if (newWindow.document.documentElement.msRequestFullscreen) { /* IE/Edge */
-          newWindow.document.documentElement.msRequestFullscreen();
-        }
-      }
-    }
-  </script>
-</head>
-<body>
-  <button onclick="openFullscreen()">Home</button>
-</body>
-</html># gyatt.github.io
